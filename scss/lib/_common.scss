@@ -1,0 +1,87 @@
+
+.clear{
+	clear:both;
+}
+ul {margin-block-start: 0px;
+    margin-block-end: 0px;
+    padding-inline-start: 0px;
+	list-style: none;}
+.left{float:left;}
+.right{float: right;}
+.inline{display: inline-block;}
+.container{
+	margin:10px auto;
+	width: $mainwith;
+}
+
+body{color:$bozi;
+	font-family: 'Poppins', sans-serif;
+	margin:0px;
+
+    }
+
+
+.ktext{font-size: 12px;
+
+                    font-weight: 400;
+
+                    font-height: 19.2px;
+
+                     color:$bozi;}
+
+ .lrmargin{
+           margin-right: 20px;}
+ .rgmargin{margin-left: 40px;}
+
+ .tbpadding{
+ 	margin-top: 30px;
+ 	margin-bottom: 30px;
+ }
+ .bmargin{margin-bottom: 30px;}
+ .tmargin{margin-top: 30px;}
+
+ .button{
+ 	cursor: pointer;
+ 	border:none;
+ 	height: 45px;
+ 	font-size: 14px;
+ 	font-weight: 400;
+ 	line-height: 17px;
+    text-transform: uppercase;
+    transition: all .3s linear;
+ }
+ 
+ .center{
+ 	text-align: center;
+ }
+
+ .smhr{width: 50px;
+       border-top:1px solid $maincolor;}
+
+
+ .smtext{
+ 	font-size: 13px;
+ 	font-weight: 400;
+ 	line-height: 26px;
+
+ }
+
+ .hbasliq{font-size: 24px;
+ 	          color: black;
+        		line-height: 36px;
+        		font-weight: 400;
+        	  text-transform: uppercase;}
+
+  .w-700{font-weight: 700;
+         font-style:bold;}
+
+  .mediuma{font-size: 18px;
+         		font-weight: 600;
+         		line-height: 26px;
+         		color: black;
+         		text-transform:uppercase;
+         		text-decoration: none;
+         		transition: all 0.3s ease;
+         		&:hover{color: $maincolor;}}
+
+

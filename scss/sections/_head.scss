@@ -1,0 +1,218 @@
+.container{width: $mainwith;}
+
+  header{ .container{ .enbas{border-bottom: solid 1px $boz;
+                              padding-bottom: 5px;
+     .col-7{height: 30px;
+     	      h5{
+     		       font-size: 12px;
+
+                    font-weight: 400;
+
+                    font-height: 19.2px;
+
+                     color:$bozi;
+                    margin:0px;
+     	         }
+              }
+       
+        .col-5{
+            .sign{ @extend .left;
+                margin-left: 50px;
+            position: relative;
+            &:after{content: "";
+                     height: 30px;
+                     position: absolute;
+                     top: 0px;
+                     right: 0px;
+
+                     width: 1px;
+                      background-color: $boz;}
+                       a{font-size: 12px;
+                       color: $maincolor;
+                    font-weight: 400;
+                     text-decoration-line: none;
+                    font-height: 19.2px;
+                    margin-right: 20px;
+                        &:hover{color: $bozi;}
+                                        
+
+                       }
+
+
+                                       }
+
+        	
+        		.social{@extend .left;
+                        @extend .inline;
+                         ul{padding-inline-start: 0px;
+                            margin-block-start: 0px;
+                                margin-block-end: 0px;
+                               li{display: inline-block;
+                                   margin-left: 20px;
+                                      a{color: $maincolor;
+                                        &:hover{color: $bozi;}
+                                        }
+                                  }
+                            }
+
+                        }           
+        	    }
+             }
+
+         .col-8{font-size: 12px;
+
+                    font-weight: 400;
+
+                    font-height: 19.2px;
+
+                     color:$bozi;
+                    
+                        i{
+                            font-size: 30px;
+                            color: $maincolor;
+                        }
+                      a{text-decoration: none;
+                        color: $bozi;
+                         &:hover{color: $maincolor;}}
+                        
+                      .tel{position: relative;
+                        &:after{content: "";
+                     height: 30px;
+                     position: absolute;
+                     top: 0px;
+                     right: 50px;
+                      width: 1px;
+                      background-color: $boz;} } 
+                       .working{position: relative;
+                        &:after{content: "";
+                     height: 30px;
+                     position: absolute;
+                     top: 0px;
+                     right: 50px;
+                      width: 1px;
+                      background-color: $boz;
+                       } }
+
+
+
+                 }
+
+        }
+
+    .dnav{  border-top:1px solid $boz;  nav{
+            @extend .container;
+             ul{padding-inline-start: 0px;
+                            margin-block-start: 0px;
+                                margin-block-end: 0px;
+                               li{display: inline-block;
+                                   margin-right: 20px;
+                                      a{transition: 0.3s ease;
+                                        color: $bozi;
+                                        font-size: 12px;
+                                        line-height: 1.28;
+                                        font-weight: 400;
+                                        text-decoration: none;
+                                        text-transform: uppercase;
+                                        letter-spacing: .05em;
+                                        &:hover{color: $maincolor;}
+                                        }
+                                  }
+                            }
+                  }
+         }
+      
+      .slider{
+       
+        background-image: url("../img/slider.jpg"),;
+    
+        background-size: cover;
+         .uzluk{width: 100%;
+                height: 100%;
+                background-color: rgba(0,0,0,0.3);
+        width: 100%;
+        height: 640px;
+
+        .sliderinfo{
+                     margin-top: 12%;
+            h1{font-weight: 600;
+                font-size: 74px;
+                line-height: 40px;
+                color: white;
+               }
+            h3{font-weight: 600;
+                font-size: 40px;
+                line-height: 5px;
+                letter-spacing: 1px;
+                color:white;}
+                 .smpics{
+                    display: inline-block;
+                    margin:15px 25px 15px 0px;
+                 }  
+
+
+                   }
+         .touch{
+            width: 460px;
+            margin-top: 15px;
+            padding: 10px 30px;
+            box-sizing: border-box;
+            background-color: rgba(73,192,208,0.4);
+            h4{font-weight: 600;
+                font-size: 24px;
+                line-height: 36px;
+                color: white;
+                font-style: bolder;
+                 }
+            .forlabel{position: relative;
+                margin: 0px;}
+            input,textarea{font-size: 13px;
+              max-width: 100%;
+                
+                font-family: $mainfont;
+                color: $bozi;
+                position: relative;
+                width: 100%;
+                height: 45px;
+                text-indent: 40px;
+                margin-bottom: 20px;
+                border:none;
+            }
+            #ftextarea{box-sizing: border-box;
+                        height: 100px;
+                        max-height: 160px;
+                        padding: 15px 0px;}
+            label{font-size: 25px;
+                 color: lighten(gray, 20%);
+                position: absolute;
+                top: 9px;
+                left: 9px;
+                z-index: 1;
+              
+
+                 }
+
+            .touchbutton{
+                @extend .button;
+                width: 90px;
+                background-color: black;
+                color:white;
+                margin-bottom: 20px;
+                &:hover{
+                    background-color: $maincolor;
+                }
+
+                
+            }
+
+
+         }
+
+      }}
+
+
+   }
+
+
+     
+
+

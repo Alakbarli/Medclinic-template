@@ -1,0 +1,95 @@
+.ourgallery{padding: 40px 0px 40px 0px;
+	.container{
+		.gheading{margin:0px auto;
+			      width: 25%;
+                  text-align: center;
+                  ul{display: flex;
+                     justify-content: space-between;
+                     li{cursor: pointer;}
+                      li:first-child{color:$maincolor;}
+
+                      li:first-child ~ li:hover{color:$maincolor;}
+
+                                             }
+		          }
+
+		.gallery{margin-top: 35px;
+			grid-gap: 30px;
+			width: 100%;
+			display: grid;
+			grid-template-columns:1fr 1fr 1fr;
+			grid-template-rows: repeat(3,275px);
+			.bgimages-1{background-image: url("../img/images1.jpg");}
+			.bgimages-2{background-image: url("../img/images2.jpg");}
+			.bgimages-3{background-image: url("../img/images3.jpg");}
+			.bgimages-4{background-image: url("../img/images4.jpg");}
+			.bgimages-5{background-image: url("../img/images5.jpg");}
+			.bgimages-6{background-image: url("../img/images6.jpg");}
+			.bgimages-7{background-image: url("../img/images7.jpg");}
+			.bgimages-8{background-image: url("../img/images8.jpg");}
+			.bgimages-9{background-image: url("../img/images9.jpg");}
+			.images{
+				&:hover{
+					.ustimg{
+						opacity: 1;
+						transform: scale(1);
+						i,p,h3,hr{
+                        opacity: 1;}
+                        hr{width: 130px;
+                           margin: 30px 0px; }
+
+					}
+				}
+				position: relative;
+				// background-image: url("../img/images1.jpg");
+				background-size: cover;
+
+				.link{background-color: white;
+					  
+					   padding: 5px 10px;
+					   border-radius: 5%;
+					   position: absolute;
+					   left: 10px;
+					   top: 10px;
+					   z-index: 3;
+					span{font-size: 12px;
+					     font-style: italic;
+					     color: black;}
+				    }
+				.ustimg{width: 100%;
+                    height: 100%;
+                    background: rgba(73,192,208,0.6);
+                    transform: scale(0.7);
+                    transition: all .3s ease-in-out;
+                    opacity: 0;
+                    text-align: center;
+                    color: white;
+                    position: relative;
+                    display: flex;
+                    flex-direction:column;
+                    align-items: center;
+                    justify-content: center;
+
+                    i,p,h3,hr{ transition: all .4s ease-in-out;
+                        transition-delay: .3s;
+                        opacity: 0;}
+
+
+                    i{font-size:40px;
+                      
+                       }
+                    i:last-child{position: absolute;
+                                 right: 5px;
+                                 bottom: 5px;
+                     }
+                     h3{margin-bottom: 0px;}
+                     p:last-child{margin-top: 0px;}
+                     hr{color: white;
+                     	margin: 0px;
+                     	width: 20px;}
+                }
+			}
+		}
+
+
+}}
